@@ -7,6 +7,7 @@ import { ContenidoPrincipalComponent } from './layout/private/contenido-principa
 import { MenuComponent } from './layout/private/menu/menu.component';
 import { FooterComponent } from './layout/private/footer/footer.component';
 import { HeaderComponent } from './layout/private/header/header.component';
+import { AccesopublicoComponent } from './layout/public/accesopublico/accesopublico.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HeaderComponent } from './layout/private/header/header.component';
     ContenidoPrincipalComponent,
     MenuComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    AccesopublicoComponent
   ],
   imports: [
     BrowserModule,
